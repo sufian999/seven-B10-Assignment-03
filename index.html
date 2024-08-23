@@ -9,6 +9,8 @@
       font-family: "Manrope", sans-serif;
       }
   </title>
+  <!-- css-link -->
+  <link rel="stylesheet" href="style.css">
   <!-- Monrope Font-link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +23,9 @@
   <header>
     <div class="bg-[#FFFFFF]">
       <div>
-        <nav class="flex justify-center p-2">
-          <div>
+        <nav class="flex justify-center p-3 items-center">
+          <div class="relative">
+            <img class="bg-[#ABEF5F] w-5 h-5 rounded-full -rotate-90 absolute -ml-6 mt-2" src="assets/down-right.png">
             <h1 class="text-3xl font-bold mr-9">Rinterio</h1>
           </div>
           <div class="">
@@ -35,15 +38,66 @@
             </ui>
           </div>
           <div>
-            <img>
-            <button class=" font-bold h-8 w-36 bg-[#ABEF5F] rounded-3xl">Book Consult</button>
-          </div>
+            <div class="m-auto flex justify-center items-center bg-[#ABEF5F] w-40 h-8 rounded-3xl">
+              <button class="relative font-bold w-48 h-10 rounded-3xl">Book Consult</button>
+              <img class="bg-lime-500 w-5 min-h-5 rounded-full -rotate-90 mr-5" src="assets/down-right.png">
+            </div>
         </nav>
+      </div>
+      <div class="">
+        <div class="flex justify-center">
+          <img src="assets/banner.png">
+        </div>
+        <div>
+          <h1 class="text-6xl text-center font-bold">A barn house of this design has a<br> striking appearance</h1><br>
+          <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication,
+            featuring weathered wood, sleek metal<br> accents, and large windows that flood the space with natural
+            light.
+          </p><br>
+          <div class="m-auto flex justify-center items-center bg-[#ABEF5F] w-40 h-8 rounded-3xl">
+            <button class="relative font-bold w-48 h-10 rounded-3xl">View Details</button>
+            <img class="bg-lime-500 w-5 h-5 rounded-full -rotate-90 mr-5" src="assets/down-right.png">
+          </div>
+        </div>
       </div>
     </div>
   </header>
-  <main></main>
+  <main class="mt-20">
+    <div><img src="assets/Vector.png"></div>
+    <div class="flex justify-center gap-8">
+      <div class="border-red-500/100">
+        <div class="mb-6">
+          <button class="w-32 h-8 rounded-3xl bg-red-600">About Us</button>
+          <h1 class="text-4xl font-bold">We design thoughtful,<br> liveable spaces</h1>
+          <p>The barn house captivates with its blend of rustic charm and<br> modern sophistication, featuring weathered
+            wood,sleek metal accents.</p>
+        </div>
+        <div class="flex bg-red-400 p-5 gap-8 rounded-3xl mb-8">
+          <div class="items-center"><img class="items-center" src="assets/commercial.png"></div>
+          <div>
+            <h1 class="font-bold">Commercial</h1>
+            <p>The barn house captivates with its blend <br>of rustic charm and modern.</p>
+          </div>
+        </div>
+        <div class="flex bg-red-400 p-5 gap-8 rounded-3xl">
+          <div class="items-center"><img class="items-center" src="assets/residential.png"></div>
+          <div>
+            <h1 class="font-bold">Commercial</h1>
+            <p>The barn house captivates with its blend <br>of rustic charm and modern.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="assets/Rectangle.png">
+      </div>
+    </div>
+  </main>
   <footer></footer>
+  <div class="">
+    <div class="absolute ml-1/2">
+      <p>How are you</p>
+    </div>
+  </div>
 </body>
 
 </html>
